@@ -1,13 +1,55 @@
-New log file opened at Sun Jan 24 22:32:28 CST 2016 by 10568@Rijos-PC
-Taking next connection to: 19910
-New client attempting to connect on port: 19911-19910
-  Address = /192.168.1.184:19910
-This client on port 19911 has uuid ae400e74-bf60-41bf-b108-9d246bf57dad configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-ae400e74-bf60-41bf-b108-9d246bf57dad
-Taking next connection to: 19910
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 19910
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 19910
+New log file opened at Sun Jan 24 22:55:21 CST 2016 by 11816@Rijos-PC
+Taking next connection to: 20359
+New client attempting to connect on port: 20360-20359
+  Address = /192.168.1.184:20359
+This client on port 20360 has uuid 117ca6fc-2cb7-4627-81d1-aa9c0ffdbe6a configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-117ca6fc-2cb7-4627-81d1-aa9c0ffdbe6a
+Taking next connection to: 20359
+New client attempting to connect on port: 20361-20359
+  Address = /192.168.1.184:20359
+Handshake exception on socket: 20361
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 20359
+New client attempting to connect on port: 20362-20359
+  Address = /192.168.1.184:20359
+This client on port 20362 has uuid c92ee1a0-9454-441e-b5ea-3ce76ac9e09b configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-117ca6fc-2cb7-4627-81d1-aa9c0ffdbe6a, activator-c92ee1a0-9454-441e-b5ea-3ce76ac9e09b
+Taking next connection to: 20359
+New client attempting to connect on port: 20369-20359
+  Address = /192.168.1.184:20359
+Handshake exception on socket: 20369
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 20359
+New client attempting to connect on port: 20370-20359
+  Address = /192.168.1.184:20359
+This client on port 20370 has uuid 02bbb216-296f-4610-9517-e1c5e3a908e4 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-117ca6fc-2cb7-4627-81d1-aa9c0ffdbe6a, play-fork-run-02bbb216-296f-4610-9517-e1c5e3a908e4
+Taking next connection to: 20359
