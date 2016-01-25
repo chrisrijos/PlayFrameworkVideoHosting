@@ -1,0 +1,10 @@
+New log file opened at Sun Jan 24 22:32:28 CST 2016 by 10568@Rijos-PC
+Taking next connection to: 19910
+New client attempting to connect on port: 19911-19910
+  Address = /192.168.1.184:19910
+This client on port 19911 has uuid ae400e74-bf60-41bf-b108-9d246bf57dad configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-ae400e74-bf60-41bf-b108-9d246bf57dad
+Taking next connection to: 19910
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 19910
