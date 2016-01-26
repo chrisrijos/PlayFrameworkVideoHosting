@@ -7,8 +7,8 @@ class Application extends Controller {
 
   def index = Action {
     
-    var z = Array("Home")
-    Ok(views.html.index(z(0)))
+    
+    Ok(views.html.index("Application Sample"))
   }
 
 }
